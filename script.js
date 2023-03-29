@@ -2,7 +2,7 @@ const howDid = document.querySelector(".howDidWeDo");
 const thankYou = document.querySelector(".thankYou");
 const rate = document.querySelectorAll(".rate button");
 const btn = document.querySelector(".btn");
-const ids = document.querySelectorAll("#rateNumber");
+const ids = document.querySelectorAll(".rateNumber");
 const spanContainer = document.querySelector(".spanContainer span")
 console.log(ids)
 
@@ -38,7 +38,7 @@ rate.forEach((button) => {
 
 
 
-
+// Escolhando o rate
 
 
 
