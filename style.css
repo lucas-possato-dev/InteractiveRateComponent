@@ -91,10 +91,6 @@ a {
   margin-top: 10px;
 }
 
-
-.rateNumber {
-  font-size: 1.2em ;
-}
 .thankYou h1 {
   text-align: center;
   font-size: 2.5em;
@@ -174,8 +170,40 @@ a {
   background: #3a4655;
   border-radius: 50%;
 }
-/*- White: hsl(0, 0%, 100%)
-- Light Grey: hsl(217, 12%, 63%)
-- Medium Grey: hsl(216, 12%, 54%)
-- Dark Blue: hsl(213, 19%, 18%)
-- Very Dark Blue: hsl(216, 12%, 8%)*/
+
+@media (max-width: 600px) {
+  .howDidWeDo,
+  .thankYou {
+    width: 400px;
+    height: 400px;
+  }
+  .text {
+    margin-top: 20px ;
+  }
+  .howDidWeDo h1 {
+    font-size: 1.8em;
+  }
+  .howDidWeDo p {
+    font-size: 1em;
+  }
+  .thankYou h1 {
+    margin-top: 20px;
+    font-size: 1.6em;
+  }
+  .thankYou p {
+    font-size: 1em;
+    width: fit-content;
+  }
+  .rateNumber {
+    font-size: 0.875em;
+  }
+  .rate button {
+    width: 50px;
+    height: 50px;
+  }
+  .btn {
+    margin-top: 20px;
+    font-size: 0.875em;
+    padding: 10px;
+  }
+}
